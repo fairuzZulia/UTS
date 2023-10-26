@@ -1,0 +1,71 @@
+*{
+    font-family: 'Open Sans', sans-serif;;
+}
+
+h1{
+    color: white;
+}
+
+.img-responsive{
+    width: 1347px;
+    height: auto;
+    background-image: url("fotoFairuzz.png");
+    background-size: cover;
+}
+
+.container h1 {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.btn{
+    color: black;
+}
+
+#intro{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.svg {
+   margin: auto;
+}
+
+/* Style the "Less Info" button */
+.less-info {
+    background-color: #007bff; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .less-info:hover {
+    background-color: #0056b3; /* Warna latar belakang saat dihover */
+  }
+  
+
+#About {
+  background-color: transparent; 
+}
+
+
+#About h2.judul {
+  font-size: 50px; 
+  opacity: 0.10; 
+}
+
+  
